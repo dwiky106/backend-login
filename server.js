@@ -18,8 +18,8 @@ const SECRET = process.env.JWT_SECRET || "rahasia";
 
 /* ===== DUMMY USER ===== */
 const user = {
-  username: "admin",
-  password: "123"
+  username: "JanjiNikah",
+  password: "2029"
 };
 
 /* ===== ROOT ROUTE===== */
@@ -56,3 +56,4 @@ const PORT = process.env.PORT || 3000;
 app.listen(PORT, () => {
   console.log(`Server jalan di port ${PORT}`);
 });
+
